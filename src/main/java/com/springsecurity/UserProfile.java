@@ -18,6 +18,7 @@ public class UserProfile implements UserDetails {
 	private static final long serialVersionUID = -3917999811327101259L;
 	private String username;
 	private String password;
+	private String name;
 	private Collection<? extends GrantedAuthority> authorities;
 	
 	
