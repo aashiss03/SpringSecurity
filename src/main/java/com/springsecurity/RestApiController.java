@@ -86,6 +86,7 @@ public class RestApiController {
     @RolesAllowed("ROLE_USER")
     @GetMapping(value = "/admin/getUser8")
     public String getUser8(@AuthenticationPrincipal User user) {
+    	System.out.println();
         return "Welcome User " + user.getUsername();
     }
 
