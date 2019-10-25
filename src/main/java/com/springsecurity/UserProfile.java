@@ -20,6 +20,7 @@ public class UserProfile implements UserDetails {
 	private String password;
 	private String name;
 	
+	
 	private Collection<? extends GrantedAuthority> authorities;
 	
 	
