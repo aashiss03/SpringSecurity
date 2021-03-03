@@ -5,6 +5,7 @@
 	<artifactId>SpringSecurity</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	
 
 	<name>SpringSecurity</name>
 	<url>http://maven.apache.org</url>
